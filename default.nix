@@ -14,4 +14,10 @@
     rev = "954c0fb3f45815999bc65d003794af6a850b069c";
     sha256 = "046yrr40hjmxkjmwzcvmwb39fxx2v2i6hgdxrjfiwilzvhikarrg";
   }) {};
+  python3Packages = {
+    sncli = pkgs.python3Packages.callPackage ./sncli {};
+    spotify-cli-linux = pkgs.pytohn3Packages.callPackage ./spotify-cli-linux {};
+    instaloader = pkgs.python3Packages.callPackage ./instaloader {};
+  };
+  text2pdf = pkgs.callPackage ./text2pdf {};
 }
