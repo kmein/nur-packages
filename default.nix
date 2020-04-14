@@ -1,4 +1,4 @@
-{ pkgs }:
+{ pkgs ? import <nixpkgs> {} }:
 {
   depp = pkgs.callPackage ./depp {};
   daybook = pkgs.callPackage ./daybook {};
