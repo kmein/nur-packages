@@ -2,12 +2,14 @@
 {
   depp = pkgs.callPackage ./depp {};
   daybook = pkgs.callPackage ./daybook {};
+  /*
   slide = pkgs.callPackage (pkgs.fetchFromGitHub {
     owner = "kmein";
     repo = "slide";
     rev = "2a5129bbb6a4f24e02a9bc0c73cbd8b5e454c9be";
     sha256 = "1pydx4a00hssbgcyyasxrihhr344hcrs95xwlz0gj14w50d9wabm";
   }) {};
+  */
   mahlzeit = pkgs.haskellPackages.callCabal2nix "mahlzeit" (pkgs.fetchFromGitHub {
     owner = "kmein";
     repo = "mahlzeit";
