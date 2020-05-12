@@ -1,6 +1,6 @@
 [submodule "mahlzeit"]
 	path = mahlzeit
-	url = git@github.com:kmein/mahlzeit
+	url = https://github.com/kmein/mahlzeit
 [submodule "daybook"]
 	path = daybook
-	url = git@github.com:kmein/daybook
+	url = https://github.com/kmein/daybook
