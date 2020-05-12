@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 {
   # depp = pkgs.callPackage ./depp {};
-  # daybook = pkgs.callPackage ./daybook {};
+  daybook = pkgs.callPackage ./daybook {};
   /*
   slide = pkgs.callPackage (pkgs.fetchFromGitHub {
     owner = "kmein";
