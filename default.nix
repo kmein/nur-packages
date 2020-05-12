@@ -10,7 +10,7 @@
     sha256 = "1pydx4a00hssbgcyyasxrihhr344hcrs95xwlz0gj14w50d9wabm";
   }) {};
   */
-  mahlzeit = pkgs.haskellPackages.callCabal2nix "mahlzeit" ./mahlzeit {};
+  mahlzeit = pkgs.haskellPackages.callPackage ./mahlzeit {};
   python3Packages = {
     # sncli = pkgs.python3Packages.callPackage ./sncli {};
     # spotify-cli-linux = pkgs.python3Packages.callPackage ./spotify-cli-linux {};
