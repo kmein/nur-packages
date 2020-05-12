@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 {
-  depp = pkgs.callPackage ./depp {};
-  daybook = pkgs.callPackage ./daybook {};
+  # depp = pkgs.callPackage ./depp {};
+  # daybook = pkgs.callPackage ./daybook {};
   /*
   slide = pkgs.callPackage (pkgs.fetchFromGitHub {
     owner = "kmein";
@@ -12,9 +12,9 @@
   */
   mahlzeit = pkgs.haskellPackages.callCabal2nix "mahlzeit" ./mahlzeit {};
   python3Packages = {
-    sncli = pkgs.python3Packages.callPackage ./sncli {};
-    spotify-cli-linux = pkgs.pytohn3Packages.callPackage ./spotify-cli-linux {};
-    instaloader = pkgs.python3Packages.callPackage ./instaloader {};
+    # sncli = pkgs.python3Packages.callPackage ./sncli {};
+    # spotify-cli-linux = pkgs.python3Packages.callPackage ./spotify-cli-linux {};
+    # instaloader = pkgs.python3Packages.callPackage ./instaloader {};
   };
   text2pdf = pkgs.callPackage ./text2pdf {};
 }
