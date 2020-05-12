@@ -1,6 +1,6 @@
-[submodule "mahlzeit"]
-	path = mahlzeit
-	url = https://github.com/kmein/mahlzeit
 [submodule "daybook"]
 	path = daybook
 	url = https://github.com/kmein/daybook
+[submodule "mahlzeit"]
+	path = mahlzeit
+	url = https://github.com/kmein/mahlzeit
