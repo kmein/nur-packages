@@ -11,4 +11,5 @@
   };
   text2pdf = pkgs.callPackage ./text2pdf {};
   vimv = pkgs.callPackage ./vimv {};
+  when = pkgs.callPackage ./when {};
 }
