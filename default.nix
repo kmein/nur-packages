@@ -1,5 +1,6 @@
 { pkgs ? import <nixpkgs> {} }:
 {
+  astrolog = pkgs.callPackage ./astrolog {};
   depp = pkgs.callPackage ./depp {};
   devour = pkgs.callPackage ./devour {};
   opustags = pkgs.callPackage ./opustags {};
