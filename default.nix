@@ -7,6 +7,7 @@
   daybook = pkgs.callPackage ./daybook {};
   slide = pkgs.callPackage ./slide {};
   mahlzeit = pkgs.haskellPackages.callPackage ./mahlzeit {};
+  moodle-dl = pkgs.callPackage ./moodle-dl {};
   python3Packages = pkgs.recurseIntoAttrs rec {
     # sncli = pkgs.python3Packages.callPackage ./sncli {};
     spotify-cli-linux = pkgs.python3Packages.callPackage ./spotify-cli-linux {};
