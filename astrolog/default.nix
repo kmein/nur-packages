@@ -1,11 +1,11 @@
 { stdenv, fetchzip, fetchurl, x11, gnused }:
 stdenv.mkDerivation rec {
   name = "astrolog";
-  version = "7.00";
+  version = "7.10";
 
   src = fetchzip {
-    url = "http://www.astrolog.org/ftp/ast70src.zip";
-    sha256 = "19dq95q8i1gf15smzgpxvfxqfr2l4krbxlbjfh28dk6k33cl640v";
+    url = "http://www.astrolog.org/ftp/ast71src.zip";
+    sha256 = "0xkgnzgww3zmdk1mzn3pabn6iz1c0w85akk6yz3g6iivsg76rfs9";
     stripRoot = false;
   };
 
